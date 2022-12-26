@@ -50,13 +50,13 @@ public:
 		if (x == NULL)
 			return;
 		else {
-            cout << " ( ";
+            cout << " (";
             inorder(x->left);
 			
             cout << x->value;
 			
             inorder(x->right);
-            cout << " ) ";
+            cout << ") ";
 		}
 	}
 };
